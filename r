@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante [Nombre del Restaurante]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurante [Nombre del Restaurante]</h1>
+        <p>¡Bienvenidos! Disfruta de nuestros deliciosos platillos.</p>
+    </header>
+
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Descripción breve del restaurante. Por ejemplo: Somos un restaurante familiar que ofrece comida casera con ingredientes frescos. Ubicados en [Dirección del restaurante].</p>
+        <img src="https://via.placeholder.com/800x400?text=Imagen+del+Restaurante" alt="Imagen del restaurante" style="width:100%; max-width:800px;">
+    </section>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        <h3>Entradas</h3>
+        <ul>
+            <li><strong>Plato 1:</strong> Descripción breve. Precio: $XX</li>
+            <li><strong>Plato 2:</strong> Descripción breve. Precio: $XX</li>
+            <!-- Agrega más platos aquí basados en el enlace -->
+        </ul>
+        <h3>Platos Principales</h3>
+        <ul>
+            <li><strong>Plato 3:</strong> Descripción breve. Precio: $XX</li>
+            <li><strong>Plato 4:</strong> Descripción breve. Precio: $XX</li>
+            <!-- Agrega más platos aquí basados en el enlace -->
+        </ul>
+        <h3>Postres</h3>
+        <ul>
+            <li><strong>Postre 1:</strong> Descripción breve. Precio: $XX</li>
+            <!-- Agrega más aquí -->
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Dirección: [Dirección completa]</p>
+        <p>Teléfono: [Número de teléfono]</p>
+        <p>Horarios: [Horarios de apertura, ej. Lunes a Domingo: 12:00 - 22:00]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Restaurante [Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
